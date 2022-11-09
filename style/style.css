@@ -6,5 +6,76 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  font-size: 400;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 28px;
+}
+.header__logo {
+  display: flex;
+}
+.header__logo_title {
+  margin-left: 15px;
+}
+.header__logo_subtitle {
+  font-size: 12px;
+}
+.header__contacts {
+  display: block;
+  margin: 0 0 auto auto;
+  text-align: right;
+}
+.header__contacts_tel {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.header__contacts_text {
+  font-size: 15px;
+  color: #999999;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+  padding-bottom: 30px;
+}
+.menu__item {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 467px;
+  align-items: center;
+}
+.menu__link {
+  text-decoration: none;
+  color: #000000;
+}
+.menu__link:hover {
+  color: #F96900;
+}
+.menu__cart {
+  text-decoration: none;
+  padding: 9px 20px 9px 19px;
+  background-color: #F96900;
+  color: #ffffff;
+  border-radius: 1000px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.menu__img {
+  max-width: 1060px;
+}
+
+.new {
+  padding-top: 70px;
 }/*# sourceMappingURL=style.css.map */
